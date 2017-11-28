@@ -16,7 +16,7 @@
 		CEA1CD061FCD43D60067ED54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1CD051FCD43D60067ED54 /* main.m */; };
 		CEA1CD101FCD43D60067ED54 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1CD0F1FCD43D60067ED54 /* Git_TestTests.m */; };
 		CEA1CD1B1FCD43D60067ED54 /* Git_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1CD1A1FCD43D60067ED54 /* Git_TestUITests.m */; };
-		CEA1CD2A1FCD52CE0067ED54 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1CD291FCD52CE0067ED54 /* CCTest.m */; };
+		CEA1CD711FCD58940067ED54 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1CD701FCD58940067ED54 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		CEA1CD161FCD43D60067ED54 /* Git TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA1CD1A1FCD43D60067ED54 /* Git_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestUITests.m; sourceTree = "<group>"; };
 		CEA1CD1C1FCD43D60067ED54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA1CD281FCD52CE0067ED54 /* CCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
-		CEA1CD291FCD52CE0067ED54 /* CCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
+		CEA1CD6F1FCD58940067ED54 /* CCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		CEA1CD701FCD58940067ED54 /* CCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,6 @@
 		CEA1CCE71FCD43D60067ED54 = {
 			isa = PBXGroup;
 			children = (
-				CEA1CD281FCD52CE0067ED54 /* CCTest.h */,
-				CEA1CD291FCD52CE0067ED54 /* CCTest.m */,
 				CEA1CCF21FCD43D60067ED54 /* Git Test */,
 				CEA1CD0E1FCD43D60067ED54 /* Git TestTests */,
 				CEA1CD191FCD43D60067ED54 /* Git TestUITests */,
@@ -118,6 +116,8 @@
 				CEA1CD041FCD43D60067ED54 /* Info.plist */,
 				CEA1CD051FCD43D60067ED54 /* main.m */,
 				CEA1CCFC1FCD43D60067ED54 /* Git_Test.xcdatamodeld */,
+				CEA1CD6F1FCD58940067ED54 /* CCTest.h */,
+				CEA1CD701FCD58940067ED54 /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 				CEA1CCF51FCD43D60067ED54 /* AppDelegate.m in Sources */,
 				CEA1CD061FCD43D60067ED54 /* main.m in Sources */,
 				CEA1CCFE1FCD43D60067ED54 /* Git_Test.xcdatamodeld in Sources */,
-				CEA1CD2A1FCD52CE0067ED54 /* CCTest.m in Sources */,
+				CEA1CD711FCD58940067ED54 /* CCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
